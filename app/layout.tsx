@@ -56,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans antialiased bg-white text-gray-700">
+        <Analytics />
         <StructuredData />
         <Header />
         <main className="min-h-screen">

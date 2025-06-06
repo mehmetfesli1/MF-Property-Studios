@@ -52,27 +52,28 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 text-shadow animate-fade-in">
-          Transforming Properties into{' '}
-          <span className="text-secondary">Irresistible Listings</span>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 text-shadow animate-fade-in leading-tight">
+          <span className="block sm:inline">Transforming Properties</span>{' '}
+          <span className="block sm:inline">into</span>{' '}
+          <span className="text-secondary block sm:inline">Irresistible Listings</span>
         </h1>
         
-        <p className="text-xl lg:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto animate-slide-up">
+        <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 mb-8 sm:mb-12 max-w-3xl mx-auto animate-slide-up leading-relaxed">
           Professional real estate photography & videography that sells. 
           Showcase your properties with stunning visuals that captivate buyers.
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16 animate-slide-up">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-12 sm:mb-16 animate-slide-up">
           <Link
             href="/portfolio"
-            className="btn-primary text-lg px-10 py-5"
+            className="btn-primary text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5"
           >
             View Our Work
           </Link>
           <Link
             href="/contact"
-            className="btn-secondary text-lg px-10 py-5"
+            className="btn-secondary text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5"
           >
             Get Quote
           </Link>
@@ -80,8 +81,8 @@ const HeroSection = () => {
 
         {/* Services Strip */}
         <div className="animate-fade-in">
-          <p className="text-gray-300 mb-8 text-lg">Our Specialties</p>
-          <div className="flex flex-wrap justify-center gap-8 lg:gap-12">
+          <p className="text-gray-300 mb-6 sm:mb-8 text-base sm:text-lg">Our Specialties</p>
+          <div className="flex flex-wrap justify-center gap-6 sm:gap-8 lg:gap-12">
             {services.map((service, index) => {
               const IconComponent = service.icon;
               return (
@@ -89,10 +90,10 @@ const HeroSection = () => {
                   key={index}
                   className="flex flex-col items-center group cursor-pointer"
                 >
-                  <div className="p-4 rounded-full bg-white/10 group-hover:bg-secondary/20 transition-all duration-300 mb-3">
-                    <IconComponent className="h-8 w-8 text-white group-hover:text-secondary transition-colors duration-300" />
+                  <div className="p-3 sm:p-4 rounded-full bg-white/10 group-hover:bg-secondary/20 transition-all duration-300 mb-2 sm:mb-3">
+                    <IconComponent className="h-6 w-6 sm:h-8 sm:w-8 text-white group-hover:text-secondary transition-colors duration-300" />
                   </div>
-                  <span className="text-white text-sm font-medium">
+                  <span className="text-white text-xs sm:text-sm font-medium text-center max-w-20 sm:max-w-none">
                     {service.label}
                   </span>
                 </div>
