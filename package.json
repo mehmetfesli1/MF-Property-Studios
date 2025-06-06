@@ -1,0 +1,40 @@
+{
+  "name": "mf-property-studios",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/client": "^7.4.1",
+    "@sanity/image-url": "^1.1.0",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "cloudinary": "^2.6.1",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^15.3.3",
+    "framer-motion": "^12.16.0",
+    "lucide-react": "^0.513.0",
+    "next": "^15.3.3",
+    "next-sanity": "^9.12.0",
+    "postcss": "^8.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [
+    "real estate",
+    "photography",
+    "next.js",
+    "typescript"
+  ],
+  "author": "MF Property Studios",
+  "license": "ISC",
+  "description": "Professional real estate photography business website"
+}
