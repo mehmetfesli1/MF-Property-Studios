@@ -11,11 +11,13 @@ Get this from Google Analytics 4 when you set up tracking for your website.
 ## Email Service (For Contact Forms)
 Choose one of these options:
 
-### Option 1: Resend (Recommended)
+### Option 1: Resend (Recommended) - CURRENTLY CONFIGURED
 ```
 RESEND_API_KEY=re_xxxxxxxxx
-RESEND_FROM_EMAIL=contact@yourdomain.com
+BUSINESS_EMAIL=info@mfpropertystudios.com
+NEXT_PUBLIC_SITE_URL=https://mfpropertystudios.com
 ```
+Note: The contact form is already set up to use Resend with your domain!
 
 ### Option 2: SendGrid
 ```
